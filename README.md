@@ -1,25 +1,25 @@
-# apexlinux
-This is a very light weigth linux distro that can can be run on 70MB of ram.It is made by compiling the latest linux kernel.
+<h1>Apexlinux-a very lightweight linux distro</h1>
 
-To download the iso file head ove to the "Realeses" section
+This is a very lightweight linux distro compeletely made from scratch.
 
-Feel free to use the os and let me know what can be improved.
+Its based on buildroot.
 
-The rootfs was made using buildroot.
+<h2>Whats new in the latest version?</h2>
+* Added liveboot
 
-<h2><u>HOW TO USE</u></h2>
+*Apexlinux branding
 
-IF YOU ARE USING VIRTUALBOX ATTATCH THE ISO TO THE CD/DVD ROM DRIVE ON YOUR VM.
+*Reliable boot on VMs
 
-NEXT , WHEN THE GRUB MENU SHOWS UP,SELECT THE CD ROM OPTION.
+*Added Ascii_invader (game).
 
-WAIT FOR THE BOOT PROCESS TO COMPLETE
+<h2>BEFORE YOU USE</h2>
 
-WHEN THE "BUILDROOT LOGIN " PROMPT APPEARS, LOGIN AS ROOT AND NO PASSWORD.
+<h3>Issues on actual hardware</h3>
+*It doesn't seem to boot properly on actual hardware.
 
-TO LAUNCH A LIVE SESSION TYPE THE COMMAND "livesys"
+*If it does boot , it instantly panics/crashes for some reason.
 
-to poweroff the machine, type "shutdown"
-
-Have fun!! ;)
-
+<h2>Minimum Specs</h2>
+Ram:80MB(minimum),(128MB or more recommended)
+CPU:64-bit
